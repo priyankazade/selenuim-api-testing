@@ -5,14 +5,14 @@
 
 	<listeners>
 		<listener
-			class-name="com.ridecell.reports.ExtentReporterNG"></listener>
+			class-name="com.sdet.reports.ExtentReporterNG"></listener>
 	</listeners>
 
 	<test name="Testing">
 		<!-- <groups> <run> <exclude name = "Functionality" /> </run> </groups> -->
 
 		<classes>
-			<class name="com.ridecell.testcases.RepositoryFetching">
+			<class name="com.sdet.testcases.RepositoryFetching">
 
 				<!-- methods> <include name=""> </include> </methods -->
 
