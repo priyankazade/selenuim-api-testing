@@ -20,7 +20,7 @@ public class TestUtils {
 
 	public static final long IMPLICIT_WAIT = 10;
 
-	public static final String WORKSAPCE_PATH = "C://Users//Priyanka//eclipse-workspace//RidecellSDET"; // provide path of workspace from your local machine
+	public static final String WORKSAPCE_PATH = "C://Users//Priyanka//eclipse-workspace//RidecellSDET//selenuim-api-testing"; // provide path of workspace from your local machine
 	public static final String SCREENSHOT_PATH = WORKSAPCE_PATH + "//Screenshot//";
 
 	public static final String DateFormat = "yyyyMMddHH:mm:ss";

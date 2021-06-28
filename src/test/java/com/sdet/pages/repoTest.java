@@ -15,11 +15,11 @@ import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
-public class repoListUI extends BasePage{
+public class repoTest extends BasePage{
 
 	List<String> descUI = new ArrayList<String>();
 	List<String> namesUI = new ArrayList<String>();
-	public repoListUI() { 
+	public repoTest() { 
 		super(); 
 		PageFactory.initElements(driver, this);
 	}
@@ -32,7 +32,7 @@ public class repoListUI extends BasePage{
 	@FindBy(xpath = "")
 	WebElement cancelBtn;
 
-	public repoListUI FetchRepoName() {
+	public repoTest FetchRepoName() {
 		System.out.println("At Repository Page");
 		repositorySection.click();
 		
@@ -70,7 +70,7 @@ public class repoListUI extends BasePage{
 		Assert.assertEquals(namesAPI, namesUI, "Repo names are matching");
 		Assert.assertEquals(descAPI, descUI, "Repo descriptions are matching");
 		
-		return new repoListUI();
+		return new repoTest();
 	}
 
 }

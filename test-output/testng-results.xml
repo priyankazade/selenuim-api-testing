@@ -2,16 +2,16 @@
 <testng-results total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-25T09:42:15Z" name="RegressionSuite" finished-at="2021-06-25T09:42:20Z" duration-ms="5425">
+  <suite started-at="2021-06-28T03:19:05Z" name="RegressionSuite" finished-at="2021-06-28T03:19:12Z" duration-ms="7275">
     <groups>
     </groups>
-    <test started-at="2021-06-25T09:42:15Z" name="Testing" finished-at="2021-06-25T09:42:20Z" duration-ms="5425">
+    <test started-at="2021-06-28T03:19:05Z" name="Testing" finished-at="2021-06-28T03:19:12Z" duration-ms="7275">
       <class name="com.sdet.testcases.RepositoryFetching">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sdet.testcases.RepositoryFetching@6107227e]" started-at="2021-06-25T15:12:09Z" name="setUp" finished-at="2021-06-25T15:12:15Z" duration-ms="6152" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sdet.testcases.RepositoryFetching@6107227e]" started-at="2021-06-28T08:48:56Z" name="setUp" finished-at="2021-06-28T08:49:05Z" duration-ms="8980" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="RepositoryFetching()[pri:0, instance:com.sdet.testcases.RepositoryFetching@6107227e]" started-at="2021-06-25T15:12:15Z" name="RepositoryFetching" finished-at="2021-06-25T15:12:20Z" duration-ms="5393" status="FAIL">
+        <test-method signature="RepositoryFetching()[pri:0, instance:com.sdet.testcases.RepositoryFetching@6107227e]" started-at="2021-06-28T08:49:05Z" name="RepositoryFetching" finished-at="2021-06-28T08:49:12Z" duration-ms="7251" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "java.lang.Comparable.compareTo(Object)" because "pivot" is null]]>
@@ -45,7 +45,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RepositoryFetching -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sdet.testcases.RepositoryFetching@6107227e]" started-at="2021-06-25T15:12:20Z" name="tearDown" finished-at="2021-06-25T15:12:21Z" duration-ms="359" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sdet.testcases.RepositoryFetching@6107227e]" started-at="2021-06-28T08:49:13Z" name="tearDown" finished-at="2021-06-28T08:49:13Z" duration-ms="444" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
