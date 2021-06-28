@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="classes" name="Failed suite [RegressionSuite]" verbose="5">
+  <listeners>
+    <listener class-name="com.sdet.reports.ExtentReporterNG"/>
+  </listeners>
+  <test parallel="classes" name="Testing(failed)">
+    <classes>
+      <class name="com.sdet.testcases.RepositoryFetching">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="RepositoryFetching"/>
+        </methods>
+      </class> <!-- com.sdet.testcases.RepositoryFetching -->
+    </classes>
+  </test> <!-- Testing(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->
